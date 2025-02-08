@@ -116,3 +116,19 @@ console.log(str7.lastIndexOf("o"));  // 15
 let combinestr = str.concat(" ",str2, " how are you")
 
 console.log(combinestr);
+
+
+
+
+//!  String Interpolation
+
+let a = 10
+
+let b = 20
+
+console.log(`the value of a is ${a}`);
+
+console.log(`the value of b is ${b}`);
+
+console.log(`the sum of ${a} and ${b} is ${a+b}`);
+

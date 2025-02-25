@@ -2,12 +2,12 @@
 
 let fetchdata = fetch("https://fakestoreapi.com/products")
 
-fetchedata
+fetchdata
 .then((data)=>{
-    // console.log(data);
+    console.log(data);
 
     let jsondata = data.json()
-    // console.log(jsondata);
+    console.log(jsondata);
 
     jsondata
     .then((finaldata)=>{
@@ -29,23 +29,5 @@ fetchedata
 
 
 
-// //!   async await
 
-// let getData = async ()=>{
-
-//     try{
-
-//         let fetcheddata = await fetch("https://fakestoreapi.com/products")
-
-//         let data = await fetcheddata.json()
-
-//         console.log(data);
-//     }
-//     catch(err){
-//         console.log(err);
-//     }
-// }
-
-
-// getData()
 

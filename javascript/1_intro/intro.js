@@ -158,3 +158,10 @@ function display()
 }
 
 display();
+
+m1()
+
+var m1=()=>{
+    console.log("hii");
+    
+}

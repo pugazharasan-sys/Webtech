@@ -1,4 +1,4 @@
-
+ 
 let arr = [10,"hello",true,30]
 
 console.log(arr);
@@ -87,7 +87,7 @@ console.log(characters.reverse());
 
 //! 10.slice()
 
-//it is used to extract the data from the string
+//it is used to extract the data from the array
 //it accept (startIndex,endIndex)
 //it will not include the endIndex value
 
@@ -205,7 +205,7 @@ console.log(resu);
 //! map()
 
 let add_100 = input1.map((ele)=>{
-    return ele + 100
+    return ele+100
 })
 
 console.log(add_100);

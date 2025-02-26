@@ -122,6 +122,8 @@ console.log(combinestr);
 
 //!  String Interpolation
 
+// whenever we are printing variable inside a string then we are going for string interpolation
+
 let a = 10
 
 let b = 20

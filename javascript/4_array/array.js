@@ -176,7 +176,8 @@ console.log(res);
 
 //! filter()
 
-//it will return the value but condition in return value is not working  
+//it is a higher order array method
+//it will return the value based on the given condition 
 
 let greater = arr3.filter((ele)=>{
     return ele>30

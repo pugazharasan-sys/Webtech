@@ -117,12 +117,16 @@ console.log(typeof bigNumber); //type of bigint is bigint
 //! Non-Primitive Datatype
 
 //! Array
+//array is a collection of homogeneous or heterogeneous type of data
 
 let arr = [10,"hello",true, null, undefined,[20,80]]
 
 
 
 //! object
+/*object is stored in the form of key and value pairs ,
+one object can be created inside another object ,
+it is written inside {}  */
 
 let student = {
 
@@ -143,6 +147,10 @@ console.log(student.sname);
 
 
 //! function
+/*function is a block of instructions which is used to perform specific task. 
+function is used for code reusability.
+function is defined using function keyword.
+*/
 
 function display()
 {
@@ -150,3 +158,10 @@ function display()
 }
 
 display();
+
+m1()
+
+var m1=()=>{
+    console.log("hii");
+    
+}

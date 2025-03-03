@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event</title>
+    <style>
+        .con1{
+            height: 300px;
+            width: 300px;
+            border: 2px solid black;
+            margin-top: 20px;
+        }
+        .dark{
+            background-color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>event in js</h1>
+
+    <button onclick="msg()">give msg</button>
+
+    <button ondblclick="hello()">double click me</button>
+
+    <div class="con1" onmouseover="hi()" id="con1" onmouseout="bye()"></div>
+
+    <button class="bg" onclick="bg()">change color</button>
+
+    <script src="./event.js"></script>
+</body>
+</html>

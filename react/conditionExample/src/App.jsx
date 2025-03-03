@@ -42,6 +42,8 @@ const App = () => {
   let isLoggedin = true;
 
   let a = 10;
+
+  let num1 = 13;
   return (
     <>
       {
@@ -50,6 +52,10 @@ const App = () => {
 
       {
         a>5 ? <h1>{a} is greater than 5</h1> : <h1>{a} is less than 5</h1>
+      }
+
+      {
+        (num1 % 2 !==0) && <h1>it is odd</h1>
       }
     </>
   )

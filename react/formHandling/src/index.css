@@ -1,0 +1,58 @@
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 5px;
+  background-color: antiquewhite;
+}
+
+.main > h1{
+  position: relative;
+}
+
+.main > h1::after{
+  content: "";
+  height: 3px;
+  background-color: red;
+  width: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: all 2s ease-in;
+}
+
+.main > h1:hover::after{
+  width: 100%;
+}
+
+.frm{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 2px solid black;
+  padding: 15px 20px;
+  width: 350px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.frm > input{
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.frm > button{
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}

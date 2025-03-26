@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const Card = () => {
-  let [search, setSearch] = useState(null);
+  let [search, setSearch] = useState("Chennai");
 
   let [city, setCity] = useState(null);
 
@@ -10,7 +10,8 @@ const Card = () => {
 
     let data = await res.json();
 
-    setCity(data);
+    setCity(data.main);
+    console.log(data.main)
   };
 
   useEffect(() => {
@@ -28,13 +29,13 @@ const Card = () => {
           />
           <button onClick={getData}>search</button>
         </div>
-        {search == null ? (
+        {city === null ? (
           <p className="para">not found!</p>
         ) : (
           <div className="info">
-            <h2>{city.name}</h2>
-            <h1>{city.main.temp}&deg;C</h1>
-            <h3>Min: {city.main.temp_min}&deg;C | Max: {city.main.temp_max}&deg;C</h3>
+            <h2>{search}</h2>
+            <h1>{city.temp}&deg;C</h1>
+            <h3>Min: {city.temp_min}&deg;C | Max: {city.temp_max}&deg;C</h3>
           </div>
         )}
       </div>

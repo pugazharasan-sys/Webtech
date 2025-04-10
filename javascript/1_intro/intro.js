@@ -97,7 +97,7 @@ console.log(typeof empName); // type of undefined is undefined
 
 
 //! null
-//when any variable is declared and initialized with null values then it is known as null
+// when any variable is declared and initialized with null values then it is known as null
 let sal = null;
 
 console.log(sal); //null
@@ -105,7 +105,7 @@ console.log(typeof sal); //type of null is object
 
 
 //! bigint
-
+// any number which is suffixed with n then it is known as bigint
 let bigNumber = 2n;
 
 console.log(bigNumber); //2n
@@ -118,6 +118,7 @@ console.log(typeof bigNumber); //type of bigint is bigint
 
 //! Array
 //array is a collection of homogeneous or heterogeneous type of data
+// in an array we can store all the values like number,string, boolean and we can also store another array , object and functions
 
 let arr = [10,"hello",true, null, undefined,[20,80]]
 

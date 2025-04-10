@@ -97,7 +97,7 @@ console.log(typeof empName); // type of undefined is undefined
 
 
 //! null
-
+//when any variable is declared and initialized with null values then it is known as null
 let sal = null;
 
 console.log(sal); //null
